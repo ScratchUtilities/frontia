@@ -10,3 +10,4 @@ function sendAPIreq(){
             getproxy(response);
             getID(response)
         }
+        document.getElementById("result").innerHTML = result;
