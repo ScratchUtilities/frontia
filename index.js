@@ -1,34 +1,42 @@
 // GET https://api.scratch.mit.edu/proxy/featured
 (function sendAPIreq() {
   const url = "https://api.scratch.mit.edu/proxy/featured";
-  const container = document.getElementById('result');
+  const container = document.getElementById("result");
   fetch(url)
     .then(response => response.json())
     .then(function(data) {
-        let projects = data;
-        for(var project in projects){
-            let ul = createNode('ul');
-            let title = createNode('h3');
-            title.innerHTML = project;
-            append(container, title);
-            append(container, ul);
-            projects[project].map(function(data) {
-              let li = createNode('li'),
-                  img = createNode('img'),
-                  span = createNode('span');
-              img.src = 'https:' + data.thumbnail_url;
-              span.innerHTML = `${data.title} by ${data.creator}`;
-              append(li, img);
-              append(li, span);
-              append(ul, li);
-            });
-        }
-        
-    })
+      let projects = data;
+      for (var project in projects) {
+        let section = createNode("div");
+        section.className = "section";
+        append(container, section);
+        let title = createNode("h3");
+        title.className = "title";
+        title.innerHTML = project.replace(/_/g, " ");
+        append(section, title);
+        let ul = createNode("ul");
+        append(section, ul);
+        projects[project].map(function(data) {
+          let imageContainer = createNode("div");
+          imageContainer.className = "imageContainer";
+          let li = createNode("li"),
+            img = createNode("img"),
+            description = createNode("div");
+          img.className = "thumbnail";
+          img.src = "https:" + data.thumbnail_url;
+          description.className = "desc";
+          description.innerHTML = `${data.title} by ${data.creator}`;
+          append(imageContainer, img);
+          append(imageContainer, description);
+          append(li, imageContainer);
+          append(ul, li);
+        });
+      }
+    });
 })();
 
 function createNode(element) {
-    return document.createElement(element);
+  return document.createElement(element);
 }
 
 function append(parent, el) {
