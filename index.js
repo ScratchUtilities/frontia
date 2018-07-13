@@ -32,6 +32,9 @@
           append(ul, li);
         });
       }
+    })
+    .catch(function(error) {
+      console.error(error);
     });
 })();
 
