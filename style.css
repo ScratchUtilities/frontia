@@ -74,18 +74,20 @@ div.desc {
     padding: 15px;
 }
 
-div.imageContainer {
+.imageContainer {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 250px;
+    color: black;
+    text-decoration: none;
 }
 
-div.imageContainer:hover {
+.imageContainer:hover {
     border: 1px solid #777;
 }
 
-div.imageContainer img {
+.imageContainer img {
     width: 100%;
     height: auto;
 }

@@ -17,7 +17,8 @@
         let ul = createNode("ul");
         append(section, ul);
         projects[project].map(function(data) {
-          let imageContainer = createNode("div");
+          let imageContainer = createNode("a");
+          imageContainer.href = "https://scratch.mit.edu/projects/" + data.id + "/";
           imageContainer.className = "imageContainer";
           let li = createNode("li"),
             img = createNode("img"),
@@ -32,6 +33,9 @@
           append(ul, li);
         });
       }
+    })
+    .catch(function(error) {
+      console.error(error);
     });
 })();
 
