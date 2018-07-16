@@ -8,11 +8,14 @@
       let projects = data;
       for (var project in projects) {
         let section = createNode("div");
-        section.className = "section";
+        section.className = "section open";
         append(container, section);
         let title = createNode("h3");
         title.className = "title";
         title.innerHTML = project.replace(/_/g, " ");
+        title.addEventListener('click', function() {
+          section.classList.toggle('open');
+        }, false);
         append(section, title);
         let ul = createNode("ul");
         append(section, ul);
@@ -46,4 +49,3 @@ function createNode(element) {
 function append(parent, el) {
   return parent.appendChild(el);
 }
-
