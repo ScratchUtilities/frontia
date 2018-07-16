@@ -1,4 +1,4 @@
-# Proxy Express
+# Prixy (Plugin)
 
   This repo/site was made to make https://api.scratch.mit.edu/proxy/featured look better on a 3rd party safe website, for scratch users, who can't login to scratch, but can see this, or users who want a cleaner way than the white plain scratch background.
   
