@@ -9,4 +9,5 @@
  
  **PREVIEW**
  
- [![Image from Gyazo](https://i.gyazo.com/3cc151afab73b998b025189d671e89d5.png)](https://gyazo.com/3cc151afab73b998b025189d671e89d5)
+ [Preview here](https://github.com/gitcowor/prixy/blob/a7d383ea209fbe2714f11740c16307a8b12a59d8/demo/preview.md)
+ 
