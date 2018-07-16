@@ -42,7 +42,12 @@ body ul li {
 
 div.section.open {
     padding-bottom: 20px;
+
+    border-bottom: 3px solid #3f87a6;
+    position: relative;
+
     border-bottom-width: 3px;
+
 }
 .mainHeading{
     margin: 1em 0 0.5em 0;
@@ -53,6 +58,41 @@ div.section.open {
 	line-height: 42px;
 	text-transform: uppercase;
 	text-shadow: 0 2px white, 0 3px #777;
+}
+
+#tabs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#tabs a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ccc;
+  font-family: arial;
+  padding: 10px;
+}
+
+#tabs:hover a {
+  color: #999;
+}
+
+#tabs a:hover {
+  color: black;
+}
+
+.anchor {
+    position: absolute;
+    top: -40px; /* so that the tabs don't block the title */
+    display: block;
 }
 
 .title {
