@@ -1,6 +1,7 @@
 // GET https://api.scratch.mit.edu/proxy/featured
 (function sendAPIreq() {
   const url = "https://api.scratch.mit.edu/proxy/featured";
+  const tabs = document.getElementById("tabs");
   const container = document.getElementById("result");
   fetch(url)
     .then(response => response.json())
@@ -10,6 +11,10 @@
         let section = createNode("div");
         section.className = "section";
         append(container, section);
+        let anchor = createNode("a");
+        anchor.name = project;
+        anchor.className = "anchor";
+        append(section, anchor);
         let title = createNode("h3");
         title.className = "title";
         title.innerHTML = project.replace(/_/g, " ");
@@ -32,6 +37,12 @@
           append(li, imageContainer);
           append(ul, li);
         });
+        let tab = createNode("a");
+        tab.href = "#" + project;
+        tab.innerHTML = project === "scratch_design_studio" ? "SDS"
+          : project === "curator_top_projects" ? "curated"
+          : project.replace(/_/g, " ").replace(/community|projects/g, "").trim();
+        append(tabs, tab);
       }
     })
     .catch(function(error) {
@@ -46,4 +57,3 @@ function createNode(element) {
 function append(parent, el) {
   return parent.appendChild(el);
 }
-
