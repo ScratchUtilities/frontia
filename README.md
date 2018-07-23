@@ -9,5 +9,5 @@
  
  **EXTRA LINKKKS**
  
- [Preview here](https://github.com/gitcowor/prixy/blob/a7d383ea209fbe2714f11740c16307a8b12a59d8/demo/preview.md)
+ [Preview here](https://github.com/gitcowor/prixy/tree/master/demo)
  
