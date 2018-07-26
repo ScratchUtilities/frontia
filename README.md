@@ -14,3 +14,9 @@
  ------------------
  
 g
+
+-----------
+There are two easter eggs, post in issues if u find them.
+It's a carton thing ( if i tell u type, u will know)
+
+Winner: Free follow github, sub, youtube, twitch. (NO SUB), Twitch FOllow, Twitter
