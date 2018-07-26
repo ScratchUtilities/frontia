@@ -11,3 +11,6 @@
  
  [Preview here](https://github.com/gitcowor/prixy/tree/master/demo)
  
+ ------------------
+ 
+ **THANKS EVERYONE** for **YOUR HELP**,**THANK U SO MUCJH
