@@ -28,6 +28,8 @@
           let imageContainer = createNode("a");
           if (title.innerHTML.search("studios")==-1){
           imageContainer.href = "https://scratch.mit.edu/projects/" + data.id + "/";
+          } else {
+          imageContainer.href = "https://scratch.mit.edu/studios/" + data.id + "/";
           }
           imageContainer.className = "imageContainer";
           let li = createNode("li"),
