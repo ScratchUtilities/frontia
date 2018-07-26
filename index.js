@@ -26,7 +26,9 @@
         append(section, ul);
         projects[project].map(function(data) {
           let imageContainer = createNode("a");
+          if (title.innerHTML.search("studios")==-1){
           imageContainer.href = "https://scratch.mit.edu/projects/" + data.id + "/";
+          }
           imageContainer.className = "imageContainer";
           let li = createNode("li"),
             img = createNode("img"),
@@ -34,7 +36,11 @@
           img.className = "thumbnail";
           img.src = "https:" + data.thumbnail_url;
           description.className = "desc";
+           if (title.innerHTML.search("studios")==-1){
           description.innerHTML = `${data.title} by ${data.creator}`;
+           } else {
+           description.innerHTML = `${data.title}`
+           }
           append(imageContainer, img);
           append(imageContainer, description);
           append(li, imageContainer);
