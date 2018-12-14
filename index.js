@@ -1,6 +1,6 @@
-// GET https://api.scratch.mit.edu/proxy/featured
+// GET  https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/proxy/featured
 (function sendAPIreq() {
-  const url = "https://api.scratch.mit.edu/proxy/featured";
+  const url = " https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/proxy/featured";
   const tabs = document.getElementById("tabs");
   const container = document.getElementById("result");
   fetch(url)
