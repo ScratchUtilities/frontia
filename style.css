@@ -3,6 +3,9 @@ body {
     margin: 3px;
     padding: 3px
 }
+html {
+background: #e6e9e9;
+}
 
 .wrapper {
     margin-right: auto;
