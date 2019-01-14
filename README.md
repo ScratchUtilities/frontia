@@ -5,15 +5,4 @@
  This Repo Was Possible to many People who posted pull requests and commits, and helped me. Thank you :D :).
  <hr>
  
- -------------------------
- 
- **EXTRA LINKKKS**
- 
- [Preview here](https://github.com/gitcowor/prixy/tree/master/demo)
- 
- ------------------
- 
-
-
------------
 
