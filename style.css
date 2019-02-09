@@ -4,7 +4,7 @@ body {
     padding: 3px
 }
 html {
-background-color: black;
+background-color: #355681;
 }
 
 .wrapper {
@@ -54,13 +54,13 @@ div.section.open {
 }
 .mainHeading{
     margin: 1em 0 0.5em 0;
-    color: #355681;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;
-	font-size: 36px;
-	line-height: 42px;
-	text-transform: uppercase;
-	text-shadow: 0 3px white, 0 3px #777;
+    color: #ff0707;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 3px white, 0 3px #777;
 }
 
 #tabs {
@@ -148,7 +148,7 @@ div.desc {
     border: 1px solid #ccc;
     float: left;
     width: 250px;
-    color: red;
+    color: rgb(19, 251, 176);
     text-decoration: none;
 }
 
