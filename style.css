@@ -139,7 +139,6 @@ div.section.open .title::after {
 div.desc {
     font-family: arial;
     font-size: 14px;
-    font-weight: bold;
     text-align: center;
     padding: 15px;
 }
