@@ -4,7 +4,7 @@ body {
     padding: 3px
 }
 html {
-background-color: #355681;
+background-color:black;
 }
 
 .wrapper {
@@ -68,7 +68,7 @@ div.section.open {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: white;
+  background-color: lightgray;
   border-bottom: 1px solid #ccc;
   overflow-x: auto;
   overflow-y: hidden;
@@ -79,13 +79,13 @@ div.section.open {
 #tabs a {
   display: inline-block;
   text-decoration: none;
-  color: #ccc;
-  font-family: arial;
+  color: skylue;
+  font-family: Times new roman;
   padding: 10px;
 }
 
 #tabs:hover a {
-  color: #999;
+  color: gray;
 }
 
 #tabs a:hover {
