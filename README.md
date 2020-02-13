@@ -1,4 +1,33 @@
-# Prixy (Plugin)
+<h1 align="center">Welcome to Frontia 👋</h1>
+<p>
+  <a href="https://ScratchUtilities/scratchutilities.github.io/blob/master/LICENSE">
+    <img alt="License: The Unlicense" src="https://img.shields.io/github/license/ScratchUtilities/scratchutilities.github.io.svg" target="_blank" />
+  </a>
+</p>
 
+> The Home Page for ScratchUtilities
 
-   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+### 🏠 [Homepage](https://scratchutilities.github.io)
+
+## Author
+
+👤 **Mountio and Gitcowor Studios**
+
+- Github: [@ScratchUtilities](https://github.com/ScratchUtilities)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ScratchUtilities/scratchutilities.github.io/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [The ScratchUtilities Team](https://github.com/ScratchUtilities).<br />
+This project uses [The Unlicense](https://github.com/ScratchUtilities/scratchutilities.github.io/blob/master/LICENSE).
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
