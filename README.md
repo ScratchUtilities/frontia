@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> The Home Page for ScratchUtilities
+> The Un-offical Front Page Viewer for <a href="https://scratch.mit.edu"> Scratch </a>
 
 ### 🏠 [Homepage](https://scratchutilities.github.io)
 
@@ -31,8 +31,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2018-020 [The ScratchUtilities Team](https://github.com/ScratchUtilities).<br />
-This project uses [The Unlicense](https://github.com/ScratchUtilities/scratchutilities.github.io/blob/master/LICENSE).
+Copyright © 2018-2020 [The ScratchUtilities Team](https://github.com/ScratchUtilities).<br />
+This project uses [The Creative Commons 4.0]http://creativecommons.org/licenses/by/4.0).
 
 ---
 
